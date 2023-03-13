@@ -8,17 +8,18 @@ I also like to dance and go bouldering.
 
 ## Hire Me 🔥
 
-I build you something awesome, in exchange for monies. Its a win win :)
-You can contact at [rjbutler.main@gmail.com](mailto:rjbutler.main@gmail.com).
+I build you something awesome, in exchange for money. It's a win win :)
+You can contact me at [rjbutler.main@gmail.com](mailto:rjbutler.main@gmail.com).
 
 Please note that I am currently prioritizing positions in which the majority of time is
 spent writing Rust.
 
-If you would like to support my open source projects, you can find me at
-[ko-fi.com/thebutlah](ko-fi).
+If you would like to support my open source projects, you can fund me at [ko-fi].
 
 
 ## Current Projects
+<details>
+<summary> Click to expand </summary>
 
 ### SlimeVR
 
@@ -30,11 +31,10 @@ components of the ecosystem.
 The three main things I work on under this umbrella, are located in the [SlimeVR-Rust]
 monorepo or in [SolarXR]. 
 
-#### [Firmware](https://github.com/SlimeVR/SlimeVR-Rust/tree/main/firmware)
+#### [Firmware]
 I develop bare metal embedded rust on the ESP32C3 and NRF52840 microcontrollers, which
 takes IMU sensor data, does sensor fusion, and sends that data over WiFi or BLE. I use
 async/await and [`embassy`] for concurrency without the need for an RTOS[^1].
-system).
 
 This firmware has been really fun to work on and is what I spend most of my time on
 right now.
@@ -71,16 +71,13 @@ Before this protocol, the overlay did not exist, and the GUI was written in Java
 its own app and adopt technologies like `tauri`, `typescript`, and `react`, with
 clearer separation of concerns, less code, and prettier UI/UX.
 
+</details>
 
-## Cool Tech
-
-<img src="https://www.rust-lang.org/logos/rust-logo-128x128.png" width="100px" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Neovim-mark.svg" width="100px" />
-<img src="https://blog.bazel.build/images/bazel-icon.svg" width="100px" />
-<img src="https://buck2.build/img/logo.svg" width="100px" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/WebAssembly_Logo.svg" width="100px" />
-<img src="https://raw.githubusercontent.com/bevyengine/bevy/main/assets/branding/icon.svg" width="100px" />
-<img src="https://raw.githubusercontent.com/gpuweb/gpuweb/main/logo/webgpu-notext.svg" width="100px" />
+## Tech I think is cool
+|     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| <img src="https://www.rust-lang.org/logos/rust-logo-128x128.png" height="25" /> | Rust | <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Neovim-mark.svg" height="25" /> | Neovim | <img src="https://blog.bazel.build/images/bazel-icon.svg" height="25" /> | Bazel | <img src="https://buck2.build/img/logo.svg" height="25" /> | Buck2 |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/WebAssembly_Logo.svg" height="25" /> | WebAssembly | <img src="https://raw.githubusercontent.com/bevyengine/bevy/main/assets/branding/icon.svg" height="25" /> | Bevy | <img src="https://raw.githubusercontent.com/gpuweb/gpuweb/main/logo/webgpu-notext.svg" height="25" /> | WebGPU | | |
 
 
 [ko-fi]: https://ko-fi.com/thebutlah
@@ -88,11 +85,13 @@ clearer separation of concerns, less code, and prettier UI/UX.
 [overlay]: https://github.com/SlimeVR/SlimeVR-Rust/tree/main/overlay
 [`ovr_overlay`]: https://github.com/TheButlah/ovr_overlay
 [`autocxx`]: https://github.com/google/autocxx
+[firmware]: https://github.com/SlimeVR/SlimeVR-Rust/tree/main/firmware
 [SlimeVR discord]: https://discord.gg/SlimeVR
 [SolarXR Protocol]: https://github.com/SlimeVR/SolarXR-Protocol
 [SolarXR]: https://github.com/SlimeVR/SolarXR-Protocol
 [SlimeVR-Rust]: https://github.com/SlimeVR/SlimeVR-Rust
 [skeletal model]: https://github.com/SlimeVR/SlimeVR-Rust/tree/main/skeletal_model/rust
 [GUI]: https://github.com/SlimeVR/SlimeVR-Server/tree/main/gui
+[`embassy`]: https://embassy.dev
 
 [^1]: Real time operating system
