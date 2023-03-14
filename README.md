@@ -5,14 +5,11 @@ source VR development, especially for full-body motion tracking in games like VR
 
 I also like to dance and go bouldering.
 
-
 ## Hire Me 🔥
+**I'm actively seeking job opportunities** - I will build you something awesome, in exchange
+for money. It's a win win :) You can contact me at [rjbutler.main@gmail.com].
 
-I build you something awesome, in exchange for money. It's a win win :)
-You can contact me at [rjbutler.main@gmail.com](mailto:rjbutler.main@gmail.com).
-
-Please note that I am currently prioritizing positions in which the majority of time is
-spent writing Rust.
+Please note that I am currently prioritizing Rust roles.
 
 If you would like to support my open source projects, you can fund me at [ko-fi].
 
@@ -66,8 +63,7 @@ I maintain and co-authored the SolarXR protocol, which is a Websocket and Flatbu
 based networking protocol that allows applications (like the [GUI] and [overlay]) to
 work with the SlimeVR server.
 
-Before this protocol, the overlay did not exist, and the GUI was written in Java Swing
-🤮. After we adopted the protocol, it allowed the team to break the gui code into
+After we adopted the protocol, it allowed the team to break the gui code into
 its own app and adopt technologies like `tauri`, `typescript`, and `react`, with
 clearer separation of concerns, less code, and prettier UI/UX.
 
@@ -93,5 +89,6 @@ clearer separation of concerns, less code, and prettier UI/UX.
 [skeletal model]: https://github.com/SlimeVR/SlimeVR-Rust/tree/main/skeletal_model/rust
 [GUI]: https://github.com/SlimeVR/SlimeVR-Server/tree/main/gui
 [`embassy`]: https://embassy.dev
+[rjbutler.main@gmail.com]: mailto:rjbutler.main@gmail.com
 
 [^1]: Real time operating system
