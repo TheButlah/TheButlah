@@ -28,7 +28,7 @@ and a forward kinematics model to allow social VR users to have legs in games li
 VRChat. I am a core contributor in the org, and the primary author of several
 components of the ecosystem.
 
-The three main things I work on under this umbrella, are located in the [SlimeVR-Rust]
+The four main things I work on under this umbrella, are located in the [SlimeVR-Rust]
 monorepo or in [SolarXR]. 
 
 #### [Firmware]
