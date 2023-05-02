@@ -5,10 +5,6 @@ source VR development, especially for full-body motion tracking in games like VR
 
 I also like to dance and go bouldering.
 
-## Hire Me 🔥
-**I'm actively seeking job opportunities** - I will build you something awesome, in exchange
-for money. It's a win win :) You can contact me at [rjbutler.main@gmail.com].
-
 If you would like to support my open source projects, you can fund me at [ko-fi].
 
 
